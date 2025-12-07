@@ -1,0 +1,121 @@
+@media (max-width:576px){
+   
+    .main-head{
+      width: 100%;
+     padding-inline: 10px;
+    }
+     
+   .main-head #nav-part1{
+        display:none;
+    }
+   .main-head #nav-part2{
+        display:none;
+    }
+    .main-head .menu i{
+        display: block;
+
+    }
+     .main-head img{
+        display: block;
+        width: 30%;
+        padding: 0px;
+     }
+
+     .images-sec{
+        flex-wrap: wrap;
+        gap: 20px;
+     }
+       .images-sec img {
+        width: 100px;
+        height: 100px;
+
+       }
+       .item h2{
+        left: 0;
+        text-align: center;
+       }
+       .card-sec{
+       
+        flex-direction: column;
+       }
+       .dress{
+        margin-inline: auto;
+        text-align: center;
+       }
+       .card-sec2,.card-sec3, .card-sec4 {
+        flex-wrap: wrap;
+        gap: 30px;
+       }
+       .footer{
+         justify-content: center;
+         flex-direction: column;
+         gap: 40px;
+         text-align: center;
+       }
+       .footer .center{
+       right: 0px;
+      }
+      .footer .right{
+         padding-left: 5px;
+         right: 0px;
+      }
+      .footer .left p{
+         width: 100%;
+      }
+      .footer .left #ul li{
+         margin-inline: auto;
+      }
+      .copyright{
+         text-align: center;
+      }
+}
+@media (min-width:577px) and (max-width:762px){
+   .main-head{
+      width: 100%;
+      padding: 10px;
+   }
+   .main-head img{
+      width: 30%;
+      padding: 0;
+   }
+    .main-head #nav-part1{
+        display:none;
+    }
+   .main-head #nav-part2{
+        display:none;
+    }
+    .main-head .menu i{
+        display: block;
+
+    }
+    .images-sec{
+      flex-wrap: wrap;
+    }
+     .card-sec,.card-sec2,.card-sec3, .card-sec4 {
+      margin-inline: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: center;
+ 
+      }
+      
+   
+}
+@media (min-width:763px) and (max-width:992px){
+   .images-sec {
+      flex-wrap: wrap;
+    gap: 20px;
+   }
+   .card-sec,.card-sec2,.card-sec3, .card-sec4 {
+      margin-inline: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+ 
+      }
+   
+       .main-head img{
+      width: 20%;
+      padding: 0;
+   }
+
+}
